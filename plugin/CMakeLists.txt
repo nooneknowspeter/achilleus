@@ -10,13 +10,13 @@ set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include/achilleus")
 # Adds a plugin target (that's basically what the Projucer does).
 juce_add_plugin(${PROJECT_NAME}
     COMPANY_NAME nooneknows
-    IS_SYNTH FALSE # may change this
-    NEEDS_MIDI_INPUT FALSE # may change this
-    NEEDS_MIDI_OUTPUT FALSE # may change this
-    PLUGIN_MANUFACTURER_CODE MCMP # change this
-    PLUGIN_CODE EXPL # change this
-    FORMATS Standalone VST3 # may change this
-    PRODUCT_NAME "achilleus" # change this
+    IS_SYNTH FALSE
+    NEEDS_MIDI_INPUT FALSE 
+    NEEDS_MIDI_OUTPUT FALSE 
+    PLUGIN_MANUFACTURER_CODE MCMP 
+    PLUGIN_CODE EXPL 
+    FORMATS Standalone VST3 
+    PRODUCT_NAME "achilleus" 
 )
 
 # Sets the source files of the plugin project.
